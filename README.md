@@ -17,6 +17,28 @@
 
 ---
 
+# 技能清单
+
+## solidity技术
+1、熟练掌握 Solidity 编程语言，了解合约的结构、函数、变量声明等基本语法。
+2、了解 Solidity 中的数据类型、控制结构、函数修饰符等。
+3、能够编写智能合约，包括 ERC-20、ERC-721 等标准合约。
+5、了解以太坊区块链网络的基本原理和运作机制。
+9、熟悉 Hardhat 等 Solidity 开发框架，用于合约的编译、测试和部署。
+10、了解智能合约的安全性问题，避免常见的漏洞，如重入攻击、溢出等。
+11、使用工具进行代码审计，确保合约的安全性。
+12、优化智能合约的 gas 消耗，提高合约的执行效率。
+13、了解 gas 价格和 gas 上限的概念。
+## java技术
+1、熟练使用spring全家桶进行开发
+2、对 Java 语言的深入理解，包括面向对象编程（OOP）、多线程编程、异常处理等。
+3、掌握 Java EE（Enterprise Edition）和 Spring Framework规范。
+4、熟悉常见的 Web 开发概念，包括 HTTP 协议、RESTful 架构等。
+## sql技术
+1、熟练掌握 SQL（Structured Query Language），包括对数据的增、删、改、查等基本操作。
+2、了解复杂查询、连接、子查询等高级 SQL 操作。
+3、能够设计规范的数据库模型，包括表的设计、关系建立、索引的使用等。
+
 # 工作经历
 
 ## 厦门远方章鱼 （ 2022年7月 ~ 2023年10月 ）
@@ -33,9 +55,7 @@
 ### crm 平台 
 项目负责模块：客户主数据、计划外发货、年度返利、交货单
 项目描述：主要根据需求完成项目内容，使用 crm 平台开发，较复杂逻辑在多表关联进行回写时，可能出现数据不正确问题，需要保持数据的一致性，对接的系统有 sap，勤哲，MDM系统，为确保回写的统一性，使用同步锁和消息队列回写。
-项目技术：使用 springboot 和 springcloud 部署项目，系统间调用回写通过rabbitmq消息队列回写，使用多服务，且多服务之间可通过 serviceClient 进行调用方法，前端页面使用Element组件。
-项目技术：前后端分离，后端使用 springcloud 项目+springboot，前端使用vue 框架，数据库使用 oracle。抓取使用定时器 cron。
-
+项目技术：使用 springboot,springcloud,mybatis-plus,maven构建项目，系统间调用回写通过rabbitmq消息队列回写，使用多服务，且多服务之间可通过 serviceClient 进行调用方法，前端页面使用Element组件。
 
 ### 京东方医院医用耗材供应管理平台 
 开发环境：
@@ -46,25 +66,16 @@
 项目负责模块：维护和二次开发
 项目描述：本项目使用 gradle 构建项目，结构上分为表现层、业务层和数据访问层，层次间的依赖关系自下到上，采用的技术有 SpringBoot 后端加 VUE 前端开发，日志使用log4J，使用spring 事务进行提交和回滚，数据库使用 oracle，通过 nignx 做反向代理web 服务器。通过webService 接口与别的系统对接。
 
-## 东软汉和科技有限公司 （ 2019年3月 ~ 2020年11月 ）
+## 福建自动化科技 （ 2019年3月 ~ 2020年11月 ）
 
 ### 中航锂电 mes
 项目负责模块：整个模组模块
 项目描述：mes 系统，主要负责模组的采集，校验，绑定和追溯。
 项目技术：使用 mongodb 对大数据进行数据管理，对数据库进行优化，并独立设计数据库结构，部署 rabbitmq 队列，并进行上传数据。
-使用 xhell 进行对现场的升级，熟悉ubuntu部分操作命令，了解 nginx 负载均衡，zookeeper 集群部署，对 docker 容器有所了解等。
+使用jenkis项目部署，熟悉ubuntu部分操作命令，了解 nginx 负载均衡，zookeeper 集群部署，对 docker 容器有所了解等。
 项目收获：掌握 mysql 基本的操作：触发器，索引，存储过程等，熟练使用mongodb 数据库，养成良好的编写代码习惯。
 
 ## 开源项目
 [合约部署验证测试](https://github.com/liuruibin1/my_hardhat_project)
 
 [java简洁调用合约](https://github.com/liuruibin1/web3PanckSwap)
-
-
-# 技能清单
-
-- java开发：springboot/springcloud/dgs/nacos/rabbitmq/
-- 服务器：ubuntu/linux/docker
-- 数据库相关：MySQL/PgSQL/Redis/Oracle
-- 版本管理、文档和自动化部署工具：Svn/Git
-- 合约开发：Solidity/Hardhat/remix/openzeppelin
