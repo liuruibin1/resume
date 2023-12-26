@@ -56,8 +56,8 @@
 项目收获：掌握 mysql 基本的操作：触发器，索引，存储过程等，熟练使用mongodb 数据库，养成良好的编写代码习惯。
 
 ## 开源项目
- - [STU]([http://github.com/yourname/projectname](https://github.com/liuruibin1/my_hardhat_project))：合约部署验证测试
- - [WXYZ]([http://github.com/yourname/projectname](https://github.com/liuruibin1/web3PanckSwap))：java简洁调用合约
+ - [github-link]: (https://github.com/liuruibin1/my_hardhat_project：合约部署验证测试
+ - [github-link]:(https://github.com/liuruibin1/web3PanckSwap)：java简洁调用合约
 
 
 # 技能清单
